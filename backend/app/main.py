@@ -40,6 +40,7 @@ app = FastAPI(
 origins = [
     "http://localhost:3000",
     "http://localhost",
+    "https://askme-ebon.vercel.app",
 ]
 
 app.add_middleware(
