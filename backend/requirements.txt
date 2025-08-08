@@ -1,0 +1,9 @@
+# backend/requirements.txt
+# List of Python packages to be installed.
+
+fastapi
+uvicorn
+pydantic
+python-dotenv
+google-generativeai
+python-multipart # Often useful with FastAPI, included for good measure
